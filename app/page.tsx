@@ -4,6 +4,7 @@ import Header from './Components/Header/page'
 import Hero from './Components/Hero/page'
 import About from './Components/About/page'
 import Cards from './Components/Cards/page'
+import Form from './Components/Form/page'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         
       <About/>
       <Cards/>
+      <Form/>
        
     </div>
   );
