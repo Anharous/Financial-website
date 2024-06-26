@@ -3,6 +3,7 @@ import  "./page.css"
 import Header from './Components/Header/page'
 import Hero from './Components/Hero/page'
 import About from './Components/About/page'
+import Cards from './Components/Cards/page'
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
       </div> 
         
       <About/>
-
+      <Cards/>
        
     </div>
   );

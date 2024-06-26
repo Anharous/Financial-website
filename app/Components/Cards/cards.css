@@ -1,0 +1,62 @@
+.cards-head{
+    font-size: 32px;
+    text-align: center;
+    display:grid ;
+    place-items: center;
+
+}
+
+.cards-head h1{
+    margin-top: 91px;
+    margin-bottom: 14px;
+}
+
+.cards-line{
+    border: solid 4px orangered;
+    width: 160px;
+    height: 0px;
+    place-self: center;
+}
+
+.cards-item-container{
+    padding: 40px 40px;
+    display: ruby-text;
+}
+
+.cards-item{
+    max-width: 270px;
+    width: 100%;
+    border: solid 1px #ddd;
+    padding: 24px;
+    display: grid;
+    gap: 10px;
+    margin: 12px 12px 20px 12px;
+
+}
+
+.cards-item p{
+    color: #999;
+}
+
+.cards-item h4{
+    font-size: 21px;
+}
+
+.cards-para{
+    color: #999;
+    display: grid;
+    gap: 10px;
+}
+
+.cards-item-line{
+    border: solid 2px orangered;
+    height: 0px;
+    width: 64px;
+}
+
+.cards-item h5{
+    color: orangered;
+    border-bottom: solid 1px orangered ;
+    width: 70px;
+    font-weight: normal;
+}
