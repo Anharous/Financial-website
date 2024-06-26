@@ -1,0 +1,108 @@
+.phase-five{
+    background-color: #ffe6c7;
+    padding: 87px 133px 0px;
+}
+
+.phase-five-head{
+    display: grid;
+    justify-content: center;
+    gap: 7px;
+    place-items: center;
+    padding-bottom: 68px;
+}
+
+.phase-five-head h1{
+    color: #454545;
+    font-size: 65px;
+}
+
+.phase-five-line{
+    border: solid 4px orangered;
+    height: 0px;
+    width: 160px;
+}
+
+.phase-five-container{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.form-container{
+    background-color: white;
+    padding: 33px;
+    max-width:688px;
+    margin-bottom: 83px;
+}
+
+.form-container h3{
+    line-height: 30px;
+}
+
+.form-container p{
+    color: #999;
+    margin-bottom: 33px;
+}
+
+.form-inside-container{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 33px;
+}
+
+.inputbox{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    border: solid 1px #ddd;
+    gap: 5px;
+    padding: 12px 10px;
+}
+
+.inputbox input{
+    border: none;
+    color: #ddd;
+}
+
+.input input:hover{
+    border: none;
+}
+
+.form-row-one, .form-row-two{
+    display: grid;
+    grid-auto-flow: column;
+    gap:20px ;
+}
+
+.form-box-inline{
+    border: solid 1px #ddd;
+    width: 0px;
+    height: 20px;
+}
+
+.form-row-three input{
+    max-width: 622px;
+    width: 100%;
+    height: 43px;
+    border: solid 1px #ddd;
+}
+
+.form-row-four textarea{
+    max-width: 622px;
+    width: 100%;
+    height: 64px;
+    border:solid 1px #ddd;
+}
+.form-row-five{
+    display: flex;
+    justify-content: center;
+    background-color: orangered;
+    height: 43px;
+}
+
+.form-row-five input{
+    border: none;
+    background-color: orangered;
+    color: white;
+    width: 100%;
+}
+
