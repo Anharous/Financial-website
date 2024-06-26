@@ -1,0 +1,44 @@
+{
+    "heros":[
+        {
+            "name":"Safeguard Your Business.",
+            "description":"Tailored Insurance Solutions for Every Risk!"
+        },
+        {
+            "name":"Protecting Your Bottom Line.",
+            "description":"Expert Commercial Insurance Tailored for You!"
+        },
+        {
+            "name":"Navigate High-Risk Markets with Confidence.",
+            "description":"Your Insurance Partner!"
+        },
+        {
+            "name":"Exceeding Expectations.",
+            "description":"Specialized Coverage for Unique Risks!"
+        },
+        {
+            "name":"Insure Your Success.",
+            "description":"Customized Solutions for Your Business Needs!"
+        },
+        {
+            "name":"Your Shield Against Uncertainty.",
+            "description":"Comprehensive Commercial Insurance!"
+        },
+        {
+            "name":"Unparalleled Protection.",
+            "description":"Trust in our High-Risk expertise!"
+        },
+        {
+            "name":"Elevate Your Coverage.",
+            "description":"Commercial insurance that goes above and beyond!"
+        },
+        {
+            "name":"Secure Your Future.",
+            "description":"Personalized insurance for your business journey!"
+        },
+        {
+            "name":"Risk Less, Achieve More.",
+            "description":"Unlock your business's full potential with us!"
+        }
+    ]
+}

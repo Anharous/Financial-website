@@ -1,0 +1,52 @@
+.slider {
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    max-width: 1519px;
+    overflow: hidden;
+    
+}
+
+.slides {
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    animation: slide 12s infinite;
+}
+
+.slide {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+ @keyframes slide {
+    0% { transform: translateX(0%); }
+    25% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    100% { transform: translateX(0%); }
+}  
+
+.hero-para{
+    position: absolute;
+    padding: 140px 0px 0px 140px;
+    width: 59%;
+    color: white;
+}
+
+.hero-para h1{
+    font-size: 61px;
+}
+
+.hero-para p{
+    font-size: 23px;
+    padding: 23px 0px;
+}
+
+.hero-para button{
+    border: none;
+    background-color: orangered;
+    color: white;
+    width: 128px;
+    height: 42px;
+}
