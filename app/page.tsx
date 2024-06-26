@@ -2,14 +2,15 @@ import Image from "next/image"
 import  "./page.css"
 import Header from './Components/Header/page'
 import Hero from './Components/Hero/page'
+import About from './Components/About/page'
 
 export default function Home() {
   return (
     <div className="home-container">
-       <Header/>
-       <Hero/>
+      <Header/>
+      <Hero/>
        {/* phase-two */}
-       <div className="phase-two-container">
+      <div className="phase-two-container">
         <div className="item-one">
           <p>At Redtail Insurance Agency, we specialize in providing comprehensive insurance solutions tailored to meet the unique needs of businesses in Michigan. With a focus on high-risk markets, excess and surplus lines, as well as life insurance and annuities for high net worth individuals, we are committed to protecting what matters most to our clients.</p>
         </div>
@@ -21,8 +22,11 @@ export default function Home() {
             <p>Explore our website to learn more about our services and how we can help safeguard your business.</p>
           </div>
         </div>
+      </div> 
+        
+      <About/>
 
-       </div>
+       
     </div>
   );
 }

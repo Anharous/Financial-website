@@ -1,0 +1,35 @@
+.about-container{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 0px 61px;
+    background-color: #ebebeb;
+}
+
+.about-left-container{
+    /* display: grid;
+    grid-auto-flow: row; */
+    padding: 71px 40px 71px 57px;
+
+}
+
+.about-left-container h1{
+    font-size: 63px;
+    line-height: 88px;
+}
+
+.about-line{
+    border: solid 4px orangered;
+    height: 0px;
+    width: 160px;
+}
+
+.about-left-container h4{
+    margin-top:55px;
+    color:rgb(242, 75, 14);
+}
+
+.about-para p{
+    margin: 12px 0px;
+    color: #999;
+
+}
