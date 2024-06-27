@@ -28,3 +28,10 @@
     }
 
 }
+
+@media (min-width: 651px) and (max-width: 1024px) {
+
+    .header{
+        padding: 32px 78px;
+    }
+}

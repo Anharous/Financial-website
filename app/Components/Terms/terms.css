@@ -51,3 +51,25 @@
     grid-template-columns: auto auto;
 }
 
+@media (min-width: 320px) and (max-width: 650px) {
+    
+    .terms{
+        padding: 42px 24px;
+    }
+
+    .terms-head h1{
+        font-size: 33px;
+    }
+    .terms-head{
+        padding: unset;
+        gap: unset;
+    }
+
+    .main-container{
+        grid-template-columns: unset;
+    }
+
+    .item-container{
+        margin: 8px 0px;
+    }
+}

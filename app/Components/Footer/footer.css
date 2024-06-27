@@ -100,3 +100,35 @@
         justify-content: space-between;
     }
 }
+
+@media (min-width: 651px) and (max-width: 1024px) {
+
+
+    .footer-top{
+        grid-auto-flow: unset;
+    }
+
+    .footer{
+        padding: 41px 65px;
+    }
+
+    .footer-vertical-line{
+        width: 100%;
+        height: 0px;
+    }
+
+    .footer-top-right{
+        max-width: unset;
+    }
+
+    .footer-bottom{
+        display: grid;
+        gap: 23px;
+        grid-template-columns: 60% 40%;
+    }
+
+    .footer-bottom-link{
+        display: flex;
+        justify-content: space-between;
+    }
+}

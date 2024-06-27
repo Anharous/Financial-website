@@ -34,6 +34,7 @@
 
 }
 
+
 @media (min-width: 320px) and (max-width: 650px) {
     .about-container{
         grid-auto-flow: unset;
@@ -60,4 +61,20 @@
         width: 100px;
     }
 
+}
+
+@media (min-width: 651px) and (max-width: 1024px) {
+
+    #about-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .about-container{
+        grid-auto-flow: unset;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
 }
