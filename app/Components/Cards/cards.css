@@ -60,3 +60,28 @@
     width: 70px;
     font-weight: normal;
 }
+
+@media (min-width: 320px) and (max-width: 650px) {
+    .cards-head{
+        font-size: 17px;
+    }
+
+    .cards-head h1{
+        margin-top: 42px;
+        margin-bottom: 2px;
+    }
+
+    .cards-line{
+        border: solid 2px orangered;
+        width:100px;
+    }
+    .cards-item{
+        max-width: unset;
+        margin: unset;
+        margin-bottom: 23px;
+    }
+    .cards-item-container{
+        padding: 37px 24px 15px;
+    }
+
+}

@@ -15,7 +15,7 @@ export default function page(){
                 </div>
             </div>
             <div className="about-img">
-                <Image src="/aboutus.svg" alt="people" width={700} height={639} />
+                <Image src="/aboutus.svg" alt="people" width={700} height={639} id="about-image"/>
 
             </div>
         </div>

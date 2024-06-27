@@ -30,7 +30,7 @@ export default function page(){
                             {currentIndex === index &&(
                                 <div className="answer">
                                     <div className="accordion-img">
-                                        <Image src={accordion.image} alt="people" width={579} height={273} />
+                                        <Image src={accordion.image} alt="people" width={579} height={273} id="accordian-image"/>
                                     </div>
                                     <div className="accordion-para">
                                     {accordion.answers.map((answer, ansIndex)=>(

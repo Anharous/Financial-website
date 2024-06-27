@@ -16,3 +16,15 @@
     width: 129px;
     height: 43px;
 }
+
+@media (min-width: 320px) and (max-width: 650px) {
+    .header{
+        padding: 13px 22px;
+    }
+
+    #header-img{
+        width: 120px;
+        height: 43px;
+    }
+
+}

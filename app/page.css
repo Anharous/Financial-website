@@ -41,3 +41,14 @@
     color: white;
 
 }
+
+@media (min-width: 320px) and (max-width: 650px) {
+    .phase-two-container{
+        grid-auto-flow: unset;
+        padding: 39px 24px;
+    }
+
+    .item-one{
+        padding:23px 15px;
+    }
+}

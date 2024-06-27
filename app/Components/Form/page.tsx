@@ -1,8 +1,83 @@
+'use client'
 import Image from "next/image";
 import './form.css'
+// import { motion } from 'framer-motion';
+import React, { useEffect, useState, ChangeEvent, FormEvent } from "react";
+
+
+interface FormData {
+    name: string;
+    subject: string;
+    email: string;
+    phone: string;
+    message: string;
+  }
 
 export default function page(){
+    const [formData, setFormData] = useState<FormData>({
+        name: '',
+        subject: '',
+        email: '',
+        phone: '',
+        message: ''
+    });
+
+    const [errors, setErrors] = useState<Partial<FormData>>({});
+
+    const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+        const { name, value } = e.target;
+        setFormData(prevState => ({
+         ...prevState,
+         [name]: value
+        }));
+    };
+
+    const validate = () => {
+        let formErrors: Partial<FormData> = {};
+        if (!formData.name) formErrors.name = 'Name is required';
+        if (!formData.subject) formErrors.subject = 'Subject is required';
+        if (!formData.email) formErrors.email = 'Email is required';
+        if (!formData.phone) formErrors.phone = 'Phone number is required';
+        if (!formData.message) formErrors.message = 'Message is required';
+        return formErrors;
+      };
+
+    const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const formErrors = validate();
+    if (Object.keys(formErrors).length === 0) {
+
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        alert(result.message);
+        setFormData({
+          name: '',
+          subject: '',
+          email: '',
+          phone: '',
+          message: ''
+        });
+      } else {
+        alert(`Failed to send email: ${result.message}`);
+        console.error(result.error);
+      }
+    } else {
+      setErrors(formErrors);
+    }
+  };
+    
     return(
+        
         <div className="phase-five">
             <div className="phase-five-head">
                 <h1>Get in touch!</h1>
@@ -63,7 +138,7 @@ export default function page(){
                     </div>
                 </div>
                 <div className="image">
-                    <Image src="/form-right-img.svg" alt="form-iage" width={604} height={745}/>
+                    <Image src="/form-right-img.svg" alt="form-iage" width={604} height={745} id="form-image"/>
                 </div>
             </div>
 

@@ -33,3 +33,31 @@
     color: #999;
 
 }
+
+@media (min-width: 320px) and (max-width: 650px) {
+    .about-container{
+        grid-auto-flow: unset;
+        padding:0px;
+    }
+
+    .about-left-container{
+        padding: 39px 24px ;
+    }
+
+    .about-left-container h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    #about-image{
+        width: 100%;
+        max-width: 649px;
+        height: 100%;
+        max-height: 486px;
+    }
+    .about-line {
+        border: solid 3px orangered;
+        width: 100px;
+    }
+
+}

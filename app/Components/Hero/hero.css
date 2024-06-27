@@ -50,3 +50,31 @@
     width: 128px;
     height: 42px;
 }
+
+@media (min-width: 320px) and (max-width: 650px) {
+    .hero-img{
+        width: 426px;
+        height: 226px;
+
+    }
+
+    .hero-para{
+        width: 70%;
+        padding: 45px 0px 0px 31px;
+    }
+
+    .hero-para h1{
+        font-size: 33px;
+    }
+
+    .hero-para p {
+        font-size: 13px;
+        padding: 10px 0px;
+    }
+
+    .hero-para button{
+        width: 94px;
+        height: 32px;
+    }
+    
+}
