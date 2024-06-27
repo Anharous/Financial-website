@@ -1,0 +1,44 @@
+.accordion-phase{
+    padding: 94px 139px 54px;
+}
+
+.accordion-head{
+    margin-bottom:65px
+}
+.accordion-head h1{
+    font-size: 65px;
+    margin-bottom: 6px;
+}
+
+.accordion-head-underline{
+    border: solid 5px orangered;
+    height: 0px;
+    width: 160px;
+}
+
+.accordion-item-container{
+    border: solid 1px;
+    margin: 25px 0px;
+    padding: 23px 32px;
+    
+
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.answer{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.accordion-para{
+    display: grid;
+    align-items: center;
+    
+}

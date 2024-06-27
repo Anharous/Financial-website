@@ -6,6 +6,7 @@ import About from './Components/About/page'
 import Cards from './Components/Cards/page'
 import Form from './Components/Form/page'
 import Footer from './Components/Footer/page'
+import Accordian from './Components/Accordion/page'
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <About/>
       <Cards/>
       <Form/>
+      <Accordian/>
       <Footer/>
     </div>
   );
