@@ -1,6 +1,6 @@
 .footer{
     background-color: #454545;
-    padding: 88px 260px;
+    padding: 88px 190px;
     color: #999;
 }
 
@@ -13,7 +13,7 @@
 .footer-top{
     display: grid;
     grid-auto-flow: column;
-    gap: 33px;
+    gap: 36px;
     margin-bottom: 65px;
 }
 
