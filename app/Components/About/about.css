@@ -15,6 +15,7 @@
 .about-left-container h1{
     font-size: 63px;
     line-height: 88px;
+    font-family: var(--font-ibm);
 }
 
 .about-line{
@@ -31,6 +32,9 @@
 .about-para p{
     margin: 12px 0px;
     color: #999;
+    font-family: var(--font-questrial);
+    line-height: 20px;
+    font-size: 15px;
 
 }
 

@@ -8,6 +8,7 @@
 .accordion-head h1{
     font-size: 65px;
     margin-bottom: 6px;
+    font-family: var(--font-ibm);
 }
 
 .accordion-head-underline{
@@ -30,6 +31,11 @@
     
 }
 
+.question h3{
+    font-family: var(--font-ibm);
+}
+
+
 .answer{
     display: grid;
     grid-auto-flow: column;
@@ -40,6 +46,16 @@
 .accordion-para{
     display: grid;
     align-items: center;
+    font-family: var(--font-questrial);
+    line-height: 20px;
+    font-size: 15px;
+    color: #999;
+    
+}
+
+#accordian-image{
+    max-width: 579px;
+    width: 100%;
     
 }
 
@@ -73,5 +89,10 @@
 
     .accordion-phase{
         padding: 69px 69px 65px;
+    }
+
+    .accordion-para{
+        display: grid;
+        gap:15px;
     }
 }

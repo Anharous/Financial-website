@@ -90,6 +90,10 @@ button{
     padding-top: 77px;
 }
 
+.phase-five-head h1{
+  font-size: 64px;
+}
+
 @media (min-width: 320px) and (max-width: 650px) {
 
     .mail-container{

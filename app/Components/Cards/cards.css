@@ -9,6 +9,7 @@
 .cards-head h1{
     margin-top: 91px;
     margin-bottom: 14px;
+    font-family: var(--font-ibm);
 }
 
 .cards-line{
@@ -36,10 +37,14 @@
 
 .cards-item p{
     color: #999;
+    font-family: var(--font-questrial);
+    line-height: 21px;
+    font-size: 14px;
 }
 
 .cards-item h4{
     font-size: 21px;
+    font-family: var(--font-ibm);
 }
 
 .cards-para{

@@ -11,6 +11,7 @@
 
 .policy-head p{
     color: #999;
+    font-family: var(--font-ibm);
 }
 
 .policy-head button{
@@ -18,6 +19,7 @@
     background-color: aliceblue;
     color: orangered;
     font-size: 14px;
+    width: unset;
 }
 #policy-home{
     text-decoration: none;
@@ -26,6 +28,7 @@
 .policy-head h1{
     margin-top: 20px;
     font-size: 61px;
+    font-family: var(--font-ibm);
 }
 .policy-items {
     display: inline;
@@ -49,6 +52,10 @@
 .main-container{
     display: grid;
     grid-template-columns: auto auto;
+}
+
+.main-container h3{
+    font-family: var(--font-questrial);
 }
 
 @media (min-width: 320px) and (max-width: 650px) {

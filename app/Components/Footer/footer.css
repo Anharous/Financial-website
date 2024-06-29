@@ -4,11 +4,6 @@
     color: #999;
 }
 
-/* .footer-top{
-    display: grid;
-    grid-auto-flow: column;
-   
-} */
 
 .footer-top{
     display: grid;
@@ -69,6 +64,8 @@
 
 .footer-top-right h2{
     color: white;
+    font-family: var(--font-ibm);
+    font-size: 35px;
 }
 
 @media (min-width: 320px) and (max-width: 650px) {
