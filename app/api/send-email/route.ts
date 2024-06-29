@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-// import nodemailer from 'nodemailer';
+import nodemailer from 'nodemailer';
 import 'dotenv/config';
 
 interface FormData {
@@ -20,13 +20,13 @@ export async function POST(request: Request) {
   console.log('PASSWORD:', process.env.PASSWORD);
   console.log('RECEIVER_EMAIL:', process.env.RECEIVER_EMAIL);
 
-//   const transporter = nodemailer.createTransport({
-//     service: 'gmail',
-//     auth: {
-//       user: process.env.EMAIL,
-//       pass: process.env.APP_PASSWORD,
-//     },
-//   });
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: process.env.EMAIL,
+      pass: process.env.APP_PASSWORD,
+    },
+  });
 
   const mailOptions = {
     from: process.env.EMAIL,
@@ -40,7 +40,7 @@ export async function POST(request: Request) {
   };
 
   try {
-    // await transporter.sendMail(mailOptions);
+    await transporter.sendMail(mailOptions);
     return NextResponse.json({ message: 'Email sent successfully' }, { status: 200 });
   } catch (error) {
     console.error('Failed to send email:', error);

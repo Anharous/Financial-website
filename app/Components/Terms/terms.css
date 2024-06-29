@@ -18,6 +18,7 @@
     background-color: aliceblue;
     color: orangered;
     font-size: 14px;
+    width: unset;
 }
 #terms-home{
     text-decoration: none;
